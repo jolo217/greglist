@@ -18,7 +18,7 @@ header {
   border-bottom: 1px solid #DDDDDD;
 }
 
-.box {
+.top-nav {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -59,6 +59,18 @@ label {
   margin-bottom: 8px;
 }
 
+.search-section input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px
+}
+
 .search-section .search-button {
   font-size: 17px;
   width: 37px;
@@ -69,22 +81,22 @@ label {
   border-radius: 3px;
 }
 
-.search-engine {
-  display: inline-block; 
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
   font-size: 0;
   margin-bottom: 30px;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
-}
+  }
 
-.search-button {
+.pages-button {
   font-size: 16px;
   display: inline-block;
   padding: 8px 15px;
   border-radius: 3px;
 }
 
-.search-display {
+.pages-display {
   font-size: 16px;
   padding: 0 30px;
   padding: 8px 25px;
