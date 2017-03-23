@@ -68,7 +68,8 @@ label {
   border: 1px solid #DDDDDD;
   border-radius: 3px;
   padding: 0 5px 0 8px;
-  width: 400px
+  width: 400px;
+  margin-bottom: 30px;
 }
 
 .search-section .search-button {
